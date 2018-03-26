@@ -4,12 +4,12 @@
 
 var should = require('chai').should();
 
-var bitcore = require('squarecore-lib');
+var squarecore = require('squarecore-lib');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
-var BufferUtils = bitcore.util.buffer;
-var BufferWriter = bitcore.encoding.BufferWriter;
-var BufferReader = bitcore.encoding.BufferReader;
+var BufferUtils = squarecore.util.buffer;
+var BufferWriter = squarecore.encoding.BufferWriter;
+var BufferReader = squarecore.encoding.BufferReader;
 
 describe('Inventory', function() {
 

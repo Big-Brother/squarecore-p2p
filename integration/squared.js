@@ -6,19 +6,19 @@ var chai = require('chai');
 var should = chai.should();
 var sinon = require('sinon');
 
-var bitcore = require('squarecore-lib');
-var _ = bitcore.deps._;
-var Random = bitcore.crypto.Random;
-var BN = bitcore.crypto.BN;
-var BufferUtil = bitcore.util.buffer;
+var squarecore = require('squarecore-lib');
+var _ = squarecore.deps._;
+var Random = squarecore.crypto.Random;
+var BN = squarecore.crypto.BN;
+var BufferUtil = squarecore.util.buffer;
 var p2p = require('../');
 var Peer = p2p.Peer;
 var Pool = p2p.Pool;
-var Networks = bitcore.Networks;
+var Networks = squarecore.Networks;
 var Messages = p2p.Messages;
 var Inventory = p2p.Inventory;
-var Block = bitcore.Block;
-var Transaction = bitcore.Transaction;
+var Block = squarecore.Block;
+var Transaction = squarecore.Transaction;
 
 // config 
 var network = process.env.NETWORK === 'testnet' ? Networks.testnet : Networks.livenet;

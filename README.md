@@ -7,7 +7,7 @@ Squarecore P2P
 
 `squarecore-p2p` adds Dash protocol support for Bitcore-Dash.
 
-See [the main bitcore-square repo](https://github.com/) for more information.
+See [the main squarecore-square repo](https://github.com/) for more information.
 
 ## Getting Started
 
@@ -43,14 +43,14 @@ peer.on('tx', function(message) {
 });
 ```
 
-Take a look at the [bitcore guide](http://bitcore.io/guide/peer.html) on the usage of the `Peer` class.
+Take a look at the [squarecore guide](http://squarecore.io/guide/peer.html) on the usage of the `Peer` class.
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/dashpay/bitcore-dash/blob/master/CONTRIBUTING.md) on the main bitcore-dash repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/dashpay/squarecore-dash/blob/master/CONTRIBUTING.md) on the main squarecore-dash repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/bitpay/squarecore/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.

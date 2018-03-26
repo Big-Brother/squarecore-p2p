@@ -4,8 +4,8 @@
 
 var should = require('chai').should();
 var utils = require('../../lib/messages/utils');
-var bitcore = require('squarecore-lib');
-var BufferReader = bitcore.encoding.BufferReader;
+var squarecore = require('squarecore-lib');
+var BufferReader = squarecore.encoding.BufferReader;
 
 describe('Message Utils', function() {
 

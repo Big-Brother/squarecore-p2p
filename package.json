@@ -1,7 +1,7 @@
 {
   "name": "@big-brother/squarecore-p2p",
-  "version": "1.0.1",
-  "description": "Interface to the square P2P network for bitcore-square",
+  "version": "1.0.2",
+  "description": "Interface to the square P2P network for squarecore-square",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -17,20 +17,20 @@
   ],
   "keywords": [
     "bitcoin",
-    "bitcore"
+    "squarecore"
   ],
   "repository": {
     "type": "git",
     "url": "https://Big-Brother:566e87145f7d24cf2ede7e308370070332b25882@github.com/Big-Brother/squarecore-p2p.git"
   },
   "dependencies": {
-    "squarecore-lib": "https://Big-Brother:566e87145f7d24cf2ede7e308370070332b25882@github.com/Big-Brother/squarecore-lib.git#82717a30bf965c581c4b92ac1ecbf8e74b75bf50",
+    "squarecore-lib": "https://Big-Brother:566e87145f7d24cf2ede7e308370070332b25882@github.com/Big-Brother/squarecore-lib.git#b2e7ce22c5ad12f73badc5da25a6e2a0ad0b24a5",
     "bloom-filter": "^0.2.0",
     "node-buffers": "^0.1.1",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "squarecore-build": "https://Big-Brother:566e87145f7d24cf2ede7e308370070332b25882@github.com/Big-Brother/squarecore-build.git#88cd4b2d8df577db628d046cdc97d63c4523296a",
+    "squarecore-build": "https://Big-Brother:566e87145f7d24cf2ede7e308370070332b25882@github.com/Big-Brother/squarecore-build.git#fd56aa18f6fa7926fe29f3874ac64a69e16dffd7",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
