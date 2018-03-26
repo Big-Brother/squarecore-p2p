@@ -17,7 +17,7 @@ npm install squarecore-p2p
 In order to connect to the Dash network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
 
 ```javascript
-var Peer = require('squarecore-p2p').Peer;
+var Peer = require('@big-brother/squarecore-p2p').Peer;
 
 var peer = new Peer({host: '127.0.0.1'});
 

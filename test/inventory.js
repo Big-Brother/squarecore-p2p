@@ -4,7 +4,7 @@
 
 var should = require('chai').should();
 
-var squarecore = require('squarecore-lib');
+var squarecore = require('@big-brother/squarecore-lib');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
 var BufferUtils = squarecore.util.buffer;

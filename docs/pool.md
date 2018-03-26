@@ -5,8 +5,8 @@ The quickest way to get connected is to run the following:
 
 ```javascript
 
-var Pool = require('squarecore-p2p').Pool;
-var Networks = require('squarecore-lib').Networks;
+var Pool = require('@big-brother/squarecore-p2p').Pool;
+var Networks = require('@big-brother/squarecore-lib').Networks;
 
 var pool = new Pool({network: Networks.livenet});
 

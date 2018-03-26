@@ -3,7 +3,7 @@
 var should = require('chai').should();
 var P2P = require('../../');
 var builder = P2P.Messages.builder;
-var squarecore = require('squarecore-lib');
+var squarecore = require('@big-brother/squarecore-lib');
 
 describe('Messages Builder', function() {
 

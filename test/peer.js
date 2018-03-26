@@ -10,7 +10,7 @@ var expect = chai.expect;
 var sinon = require('sinon');
 var fs = require('fs');
 
-var squarecore = require('squarecore-lib');
+var squarecore = require('@big-brother/squarecore-lib');
 var _ = squarecore.deps._;
 var P2P = require('../');
 var Peer = P2P.Peer;

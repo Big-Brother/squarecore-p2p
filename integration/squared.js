@@ -6,7 +6,7 @@ var chai = require('chai');
 var should = chai.should();
 var sinon = require('sinon');
 
-var squarecore = require('squarecore-lib');
+var squarecore = require('@big-brother/squarecore-lib');
 var _ = squarecore.deps._;
 var Random = squarecore.crypto.Random;
 var BN = squarecore.crypto.BN;
